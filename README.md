@@ -1,4 +1,4 @@
-# ESPHome victron_ble component
+# aioe
 
 **This repository is in no way approved by or affiliated with the official Victron Energy repository.**
 
@@ -65,7 +65,7 @@ esphome:
   name: "victron-ble"
 
 external_components:
-  - source: github://Fabian-Schmidt/esphome-victron_ble
+  - source: github://Fabian-Schmidt/aioe
 
 esp32:
   board: esp32dev
@@ -304,7 +304,7 @@ esphome:
   name: "victron-scanner"
 
 external_components:
-  - source: github://Fabian-Schmidt/esphome-victron_ble
+  - source: github://Fabian-Schmidt/aioe
 
 esp32:
   board: esp32dev
@@ -330,7 +330,7 @@ esphome:
   name: "victron-ble"
 
 external_components:
-  - source: github://Fabian-Schmidt/esphome-victron_ble
+  - source: github://Fabian-Schmidt/aioe
 
 
 esp32_ble:
